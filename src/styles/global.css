@@ -1,6 +1,10 @@
 :root {
+<<<<<<< HEAD
   --color-primary: #3b4252;
   --color-secondary: #d13a3a;
+=======
+  --color-primary: #98cd48;
+  --color-secondary: #6b21a8;
 }
 
 *,
@@ -15,7 +19,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+<<<<<<< HEAD
   background: #e5e9f0;
+=======
+  background: #98cd48;
   color: #333;
 }
 
