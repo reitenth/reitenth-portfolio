@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #0f172a;
-  --color-secondary: #6b21a8;
+  --color-primary: #3b4252;
+  --color-secondary: #d13a3a;
 }
 
 *,
@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #f8fafc;
+  background: #e5e9f0;
   color: #333;
 }
 
