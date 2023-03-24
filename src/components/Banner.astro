@@ -1,25 +1,8 @@
-<style>
-    .tabs {
-      margin-top: 30px;
-    }
-  
-    .tabs-header {
-      display: flex;
-      background: #3b4252;
-      color: #eceff4;
-      padding: 10px 20px;
-    }
-  
-    .tabs-header li {
-      margin-right: 20px;
-      cursor: pointer;
-    }
-  
-    .tabs-content {
-      font-size: 18px;
-      padding: 20px;
-      border: 1px solid #333;
-      font-weight: bold;
-      background: #4c566a;
-    }
-  </style>
+interface Props {
+  src: string;
+  width: string;
+  height: string;
+  alt: string;
+}
+
+<img loading="lazy" {...Astro.props} />
