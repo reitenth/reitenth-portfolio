@@ -17,3 +17,14 @@
     font-size: 44px;
     text-align: center;
   }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex-basis: 50%;
+    min-width: 250px;
+  }
