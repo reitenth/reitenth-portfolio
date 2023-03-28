@@ -37,3 +37,8 @@
     overflow: hidden;
   }
 
+  .video-player{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+  }
