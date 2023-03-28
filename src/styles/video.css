@@ -40,4 +40,6 @@
   .video-player{
     display: flex;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
   }
