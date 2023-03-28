@@ -36,3 +36,8 @@
     border-radius: 6px;
     overflow: hidden;
   }
+
+  .video-plater{
+    display:flex;
+    justify-content: center;
+  }
