@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Video from '../components/Video.astro';
+
+import banner3 from '../images/banner3.png';
+import banner4 from '../images/banner4.png';
+import banner10 from '../images/banner10.png';
+---
+
+<Layout title="About Astro">
+  <section class="page-content">
+    <div class="container">
+      <h2>About Astro</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, vel
+        quas repudiandae optio voluptatibus dolore maxime sed nisi ad, quod
+        exercitationem. Magni facilis ducimus neque nostrum voluptas, eius,
+        aliquam ullam eligendi corporis perferendis dolor iusto veniam cumque
+        saepe iste porro, non optio amet. Enim esse porro incidunt sequi
+        consectetur vitae.
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio porro
+        sequi officia nihil optio dicta eos, cumque asperiores id harum, qui
+        quas dolorem tempore? Recusandae repudiandae magnam quae doloribus
+        impedit.
+      </p>
+
+      <Video/>
+      
+      <img class="banner3" src={banner3} width="100%" alt="" />
+      <img class="banner4" src={banner4} width="100%" alt="" />
+      <img class="banner10" src={banner10} width="100%" alt="" />
+
+    </div>
+  </section>
+
+</Layout>
