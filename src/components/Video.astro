@@ -1,20 +1,22 @@
-
+---
+import { YouTube } from '@astro-community/astro-embed-youtube';
+---
       <div class="container">
 
         <div class="main-video-container">
-           <video src="https://drive.google.com/file/d/18jGCY0jarOSlvTClhlfTBkP3iCsmwQ3C/preview" type="video/mp4" controls class="main-video"></video>
+         <YouTube id="TVuRRMcgvBg" class="list-video"/>
            <h3 class="main-vid-title">Kiznaiver</h3>
         </div>
      
         <div class="video-list-container">
      
            <div class="list active">
-              <video src="/josee.mp4" class="list-video"></video>
+            <YouTube id="2m4DgGioQ9s" class="list-video"/>
               <h3 class="list-title">Josee</h3>
            </div>
      
            <div class="list">
-              <video src="/blueperiod" class="list-video"></video>
+            <YouTube id="oYpLvFnYuo0" class="list-video"/>
               <h3 class="list-title">Blue Period</h3>
            </div>
      
@@ -205,5 +207,3 @@ videoList.forEach(vid =>{
 });
 
 </script>
-
-</style>
