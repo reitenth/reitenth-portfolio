@@ -6,17 +6,14 @@ import Card from '../components/Card.astro';
 const posts = await Astro.glob('../posts/*.md');
 ---
 
-<<<<<<< HEAD
 <Layout title="Astro Blog">
   <Showcase heading="Astro Blog" text="A simple blog built with Astro" />
 =======
 <Layout title="Blog">
-<<<<<<< HEAD
+
   <!-- <Showcase heading="Blog" text="New and exciting stuff I want to write about." /> --!>
 =======
   <Showcase heading="Blog" text="New and exciting stuff I want to write about." />
->>>>>>> 9172a707ea9f34bfdb2e986267c00006ebf583d2
->>>>>>> 94522bd77ae71e0c5b40d6580d500bcfdb0e226b
   <section class="page-content">
     <div class="container">
       {posts.map(post => (
