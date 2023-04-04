@@ -14,12 +14,5 @@
     "astro": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-<<<<<<< HEAD
-=======
-  },
-  "dependencies": {
-    "@astro-community/astro-embed-youtube": "^0.2.2",
-    "astro-embed": "^0.2.1"
->>>>>>> 9172a707ea9f34bfdb2e986267c00006ebf583d2
   }
 }
