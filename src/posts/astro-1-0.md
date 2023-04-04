@@ -1,10 +1,9 @@
 ---
-<<<<<<< HEAD
-title: Astro 1.0 Release Update
-slug: astro-1-0-release-update
+title: Astro 1.0
+slug: astro-1-0
 excerpt: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptate, quae, quod, voluptates quibusdam voluptatibus quidem voluptatum quos quia quas nesciunt. Quisquam, quae. Quisquam, quae. Quisquam, quae. Quisquam, quae.
-date: 2022-06-20
-author: Jane Doe
+date: 2022-05-13
+author: John Doe
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis porttitor mauris. Sed quis nulla malesuada, imperdiet ipsum eleifend, pharetra lacus. Maecenas vehicula tincidunt lorem sed elementum. Vestibulum luctus consectetur risus at aliquet. Donec ac sapien malesuada, congue neque ultrices, fringilla velit. Suspendisse potenti. Maecenas ac elit sem. Suspendisse malesuada ligula eu efficitur vulputate. Mauris tincidunt urna a elit ultricies porttitor. Donec vestibulum nibh euismod lectus rutrum sollicitudin. Aliquam luctus urna volutpat erat malesuada sodales. Etiam dapibus interdum est, sit amet aliquet turpis accumsan non. Sed tincidunt felis ut magna tincidunt, sit amet mollis neque ultricies. Duis mollis, libero sit amet dictum faucibus, mauris sapien volutpat est, sit amet molestie enim eros et lorem.
@@ -16,15 +15,3 @@ In dignissim interdum diam, eget iaculis libero venenatis vel. Aliquam tristique
 Curabitur eget augue sed leo tempor cursus a ac nunc. Quisque maximus aliquet nisl, sed auctor tellus venenatis at. Nam id efficitur lacus. Duis mattis laoreet tempus. Suspendisse tellus nisi, porta nec nulla vitae, gravida euismod magna. Sed maximus suscipit dui at commodo. Nunc arcu sapien, auctor in porttitor quis, porta nec magna. Ut sed augue vel libero placerat aliquet sit amet in enim. Morbi id malesuada magna. In iaculis gravida fermentum. Suspendisse sed magna sem.
 
 Etiam eu tortor placerat, eleifend quam vel, sollicitudin tellus. Fusce at eros vestibulum, finibus augue auctor, vulputate metus. Morbi porta felis sed vehicula vulputate. Cras porta laoreet urna, ac eleifend nunc feugiat at. Pellentesque dignissim sem dui, eget volutpat quam ultricies vitae. Mauris sed condimentum tortor. Aenean bibendum enim sit amet nisi dignissim, vel ultrices ex accumsan. Integer felis orci, imperdiet at dapibus quis, rutrum ut nisl. Proin sit amet tellus in nibh mollis tempus sed sit amet diam. Donec pharetra vestibulum porttitor. Nullam ornare nulla dignissim lectus venenatis ornare. In eu maximus ante.
-=======
-title: Introducing Portfolio
-slug: astro-1-0-release-update
-excerpt: This is the first blog post on my new website I made using Astro. I primarily made it as a portfolio to show off my work and what I have learned. I am not sure how often I will write blog posts, but I will keep the projects updated with my most prevelant work. This is the first time I have coded anything outside of basic HTML and CSS (which is all this site is with a little JS included) so somethings might be a little off, but I plan to keep working on my skills to make more advanced work instead of a static site. That is about all I have to share right now. Thanks for stopping by!
-
-date: 2023-04-04
-author: reitenth
----
-
-This is the first blog post on my new website I made using Astro. I primarily made it as a portfolio to show off my work and what I have learned. I am not sure how often I will write blog posts, but I will keep the projects updated with my most prevelant work. This is the first time I have coded anything outside of basic HTML and CSS (which is all this site is with a little JS included) so somethings might be a little off, but I plan to keep working on my skills to make more advanced work instead of a static site. That is about all I have to share right now. Thanks for stopping by!
-
->>>>>>> 9172a707ea9f34bfdb2e986267c00006ebf583d2

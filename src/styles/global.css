@@ -45,6 +45,10 @@ h3 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+<<<<<<< HEAD
+  padding: 0 30px;
+=======
+>>>>>>> 9172a707ea9f34bfdb2e986267c00006ebf583d2
 }
 
 .btn {
