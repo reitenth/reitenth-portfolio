@@ -31,6 +31,9 @@ const { headings, contents, activeTextColor = '#b48ead' } = Astro.props as Props
     background: #3b4252;
     color: #eceff4;
     padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
   }
 
   .tabs-header li {
@@ -41,9 +44,10 @@ const { headings, contents, activeTextColor = '#b48ead' } = Astro.props as Props
   .tabs-content {
     font-size: 18px;
     padding: 20px;
-    border: 1px solid #333;
     font-weight: bold;
-    background: #4c566a;
+    background: #3b4252;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 </style>
 

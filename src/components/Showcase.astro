@@ -1,6 +1,5 @@
 ---
-import logos from '../images/framework-logos.png'
-import logosSmall from '../images/framework-logos-small.png'
+import profilepic from '../profilepic.png'
 
 export interface Props {
   heading?: string;
@@ -21,12 +20,11 @@ const { heading = "Justin Christensen", text="About Me/Projects/Blog", showExtra
 
   {showExtra && <>
     <div class="showcase-img">
-    <img class="logos" src={logos} alt="" />
-    <img class="logos-small" src={logosSmall} alt="" />
+    <img class="profilepic" src={profilepic} alt="" />
   </div>
 
   <p class="showcase-demo">
-    <small>This is a demo website used for the YouTube crash course</small>
+    <small></small>
   </p>
   </>}
 </section>

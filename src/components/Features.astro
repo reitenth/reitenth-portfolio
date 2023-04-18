@@ -2,9 +2,10 @@
 import Card from './Card.astro'
 
 const featuresData = [
-  {title: 'Zero JavaScript Runtime', body: ' Astro renders HTML on the server and strips away any remaining, unused JavaScript.'},
-  {title: 'The Power of Islands', body: ' Need interactive UI? Load individual, non-blocking component islands in parallel.'},
-  {title: 'Lazy-Loading Islands', body: 'Components only hydrate when they scroll into view. If you don\'t see it, Astro won\'t load it.'}
+  {title: 'Photoshop/Video Editing', body: 'I make video edits using the Adobe suite in my freetime. Check out the projects page to see some of my work.'},
+  {title: 'Home Server', body: 'I host a home server of about 40TB that has taught mee about databases such as Postgresql as well as Linux and Windows troubleshooting.'},
+  {title: 'Coding', body: 'Going along with my home server, I code a little bit. Usually just scripts and random CSS with my biggest project being this site!'},
+  {title: 'PC Build', body: 'I know a good amount about PC hardware having built about a dozen systems since 2015 for personal use.'}
 ];
 ---
 
@@ -22,9 +23,8 @@ const featuresData = [
 <style>
   .features .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    padding: 0 20px;
     margin: 30px auto;
   }
 
