@@ -1,6 +1,4 @@
 ---
-import profilepic from '../profilepic.png'
-
 export interface Props {
   heading?: string;
   text?: string;
@@ -19,9 +17,8 @@ const { heading = "Justin Christensen", text="About Me/Projects/Blog", showExtra
   </div>
 
   {showExtra && <>
-    <div class="showcase-img">
-    <img class="profilepic" src={profilepic} alt="" />
-  </div>
+    <div class="profilepic">
+      <img src="/profilepic.png" alt="">
 
   <p class="showcase-demo">
     <small></small>
