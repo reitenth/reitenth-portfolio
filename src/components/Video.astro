@@ -1,7 +1,7 @@
          <div class="container">
 
             <div class="main-video-container">
-               <video src="/kiznaiver.mp4" controls class="main-video"></video>
+               <video  src="/kiznaiver.mp4" controls muted class="main-video"></video>
                <h3 class="main-vid-title">kiznaiver</h3>
             </div>
          
@@ -81,12 +81,15 @@
    box-shadow: 0 5px 15px rgba(0,0,0,.1);
    background-color: #3b4252;
    padding: 15px 15px 15px 15px;
+   height: 514px;
 }
 
 .container .main-video-container .main-video{
    margin-bottom: 1px;
    border-radius: 5px;
    width: 100%;
+   height: 85%;
+
 }
 
 .container .main-video-container .main-vid-title{
@@ -127,6 +130,7 @@
    cursor: pointer;
    border-radius: 5px;
    margin-bottom: 10px;
+   height: 80px;
 }
 
 .container .video-list-container .list:last-child{
@@ -144,6 +148,8 @@
 .container .video-list-container .list .list-video{
    width: 100px;
    border-radius: 5px;
+   max-height: 80%;
+   max-width: 80%
 }
 
 .container .video-list-container .list .list-title{

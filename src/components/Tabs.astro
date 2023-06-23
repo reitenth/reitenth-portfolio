@@ -27,12 +27,14 @@ const { headings, contents, activeTextColor = '#b48ead' } = Astro.props as Props
   }
 
   .tabs-header {
-    display: flex;
+    display: grid;
     background: #3b4252;
     color: #eceff4;
     padding: 10px 20px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
 
   }
 
@@ -49,6 +51,15 @@ const { headings, contents, activeTextColor = '#b48ead' } = Astro.props as Props
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+
+  @media (max-width: 500px) {
+    .tabs-header { 
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+  }
+
 </style>
 
 <script define:vars={{activeTextColor}}>

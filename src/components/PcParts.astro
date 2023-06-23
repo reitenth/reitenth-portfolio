@@ -1,0 +1,26 @@
+---
+import Tabs from './Tabs.astro';
+---
+
+    <div class="pcparts">
+        <h2>PC components</h2>
+        <Tabs headings={['CPU', 'GPU', 'Motherboard', 'Memory', 'NVME', 'HDD', 'Cooler', 'Monitor', 'Headphones', 'Keyboard', 'Mouse', 'Case']} contents={['AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor ', 'AMD Midnight Black Radeon RX 6800 XT 16 GB Video Card ', ' MSI MAG B650 TOMAHAWK WIFI ATX AM5 Motherboard ', 'Corsair Vengeance 32 GB (2 x 16 GB) DDR5-5600 CL36 Memory ', 'Kingston NV2 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive ', 'Western Digital Blue 8 TB 3.5" 5640 RPM Internal Hard Drive ', 'NZXT Kraken X63 98.17 CFM Liquid CPU Cooler ', 'Gigabyte M27Q 27.0" 2560 x 1440 170 Hz Monitor + (2) 24" 1920 x 1080 144 Hz Monitors', 'Sennheiser HD600 Headphones + Schitt Stack AMP/DAC', 'EPOMAKER TH80 Wireless Keyboard', 'Xlite Wireless v2 Mini Gaming Mouse - White', 'Carbide Series 275R Mid-Tower Gaming Case — White']} />
+    </div>
+
+<style>
+    .pcparts {
+        display: grid;
+        margin: 30px auto;
+        padding: 20px;
+        max-width: 1200px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media (max-width:500px) {
+    .pcparts { 
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        display: grid;
+        }
+    }
+</style>
